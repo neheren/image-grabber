@@ -1,0 +1,30 @@
+body{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    background:white;
+}
+
+.main{
+    background:linear-gradient(#ff8b5d, #ffd45d);
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    padding: 20px;
+}
+button{
+    margin: 20px;
+}
+
+button#left{
+    margin-right:0
+}
+.btn-group{
+    display: flex;
+    justify-content: center;    
+}
+
